@@ -10,7 +10,8 @@
             class="card-img-top" alt="<?php echo $product->getProductType(); ?>">
           <div class="card-body">
             <h5 class="card-title"><?php echo $product->getBrand(); ?> <?php echo $product->getModel(); ?></h5>
-            <p class="card-text">$<?php echo $product->getPrice(); ?></p>
+            <p class="card-text">€ <?php echo $product->getPrice(); ?></p>
+            <p class="card-text">Tipologia: <?php echo $product->getProductType(); ?></p>
           </div>
         </div>
       </div>
