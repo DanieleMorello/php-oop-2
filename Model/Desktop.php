@@ -11,5 +11,7 @@ class Desktop extends Computer
   function __construct(string $brand, string $model, float $price)
   {
     parent::__construct($brand, $model, $price, "Desktop");
+
+    $this->setDescription("Un potente computer desktop per la casa o l'ufficio.");
   }
 }

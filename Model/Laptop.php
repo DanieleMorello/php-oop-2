@@ -11,5 +11,7 @@ class Laptop extends Computer
   function __construct(string $brand, string $model, float $price)
   {
     parent::__construct($brand, $model, $price, "Laptop");
+
+    $this->setDescription("Un laptop elegante e portatile per chi è sempre in movimento.");
   }
 }

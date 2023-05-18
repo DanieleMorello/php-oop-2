@@ -1,6 +1,10 @@
 <?php
+
+require_once __DIR__ . '../../Traits/Descriptionable.php';
 class Computer
 {
+  use Descriptionable;
+
   private string $brand; // marca del computer
   private string $model; // modello del computer
   private float $price; // prezzo del computer
